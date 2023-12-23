@@ -1,0 +1,84 @@
+
+  /*------------------------------------------------ */
+  /*------------- RESPONSIVENESS START-------------- */
+  /*------------------------------------------------ */
+
+
+@media (max-width: 992px){
+  .header-logo img{
+      width: 8rem;
+  }
+}
+@media (max-width: 768px){
+    .header-logo img{
+        width: 7.5rem;
+    }
+    .navbar{
+        background-color: #060606d3;
+        padding: 2rem;
+        position: absolute;
+        top:99%;
+        left: 0;
+        right: 0;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: .3s linear;
+    }
+    .navbar ul{
+      margin: 0 auto;
+      display: block;
+      text-align: center;
+  }
+    .navbar ul a{
+        text-align: center;
+        margin: 1rem;
+    }
+    #menu-bar{
+        display: inline-block;
+        transition: .2s linear;
+        color: aliceblue;
+    }
+    .fa-times{
+        transform: rotate(180deg);
+    }
+    .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .hero-content{
+      position: absolute;
+      left: 0%;
+      border-radius: 0px;
+      padding: 2rem;
+    }
+    .hero-content .secondary{
+      font-size: 2rem;
+      text-align: center;
+    }
+    .hero-content .paragraph{
+      width: 100%;
+      text-align: center;
+    }
+    .header-btn{
+      position: relative;
+      left: 24%;
+    }
+    .location-container{
+      display: block;
+    }
+    .local-iframe iframe{
+      height:25rem;
+      width: 100%;
+    }
+
+    .local-addresses .local{
+      left: 0%;
+    }
+}
+@media (max-width: 600px){
+}
+
+
+
+  /*------------------------------------------------ */
+  /*------------- RESPONSIVENESS ENDS-------------- */
+  /*------------------------------------------------ */
+
